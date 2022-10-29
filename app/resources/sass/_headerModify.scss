@@ -1,0 +1,138 @@
+.text-transform-none {
+    text-transform: none;
+}
+
+
+// menu icon
+@import "mediaQuaries";
+
+.menu-cus-icon {
+    & > a::before {
+        content: none;
+    }
+}
+
+@include medium {
+    /* sticky */
+    .sticky-active {
+        position: fixed;
+    }
+}
+
+
+.ltn__header-middle-area {
+    -webkit-box-shadow: 0 1px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0 1px 4px rgb(0 0 0 / 6%);
+}
+.ltn__header-top-area {
+    position: relative;
+}
+.ltn__header-top-area span {
+    font-weight: 400;
+    font-size: 13px;
+}
+.top-header-bg {
+    background: #0b2154;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.header-icon-size-mail, .header-icon-size-map {
+    margin-top: -2px;
+}
+.header-icon-size-mail {
+    max-width: 15px;
+    height: auto;
+}
+.header-icon-size-map {
+    max-width: 13px;
+    height: auto;
+}
+a.nav-link.dropdown-lan i {
+    color: inherit;
+}
+
+.ltn__main-menu li:hover>a {
+    color:#D81324;
+}
+
+.ltn__header-top-area a:hover i {
+    color: #d81324;
+}
+
+// language dropdown
+.dropdown-lan1 {
+    .dropdown-toggle {
+        font-size: 13px;
+    }
+    .dropdown-menu {
+        border: none;
+        border-top: 2px solid #D81324;
+        border-radius: 5px;
+        padding: 0.3rem 0;
+        box-shadow: 0 0 15px rgb(0 0 0 / 0.05);
+        overflow: hidden;
+        .dropdown-item {
+            padding: 4px 8px;
+            font-size: 14px;
+            &:hover, &:active {
+                background: #D81324;
+                color: #fff;
+            }
+        }
+    }
+}
+
+// .dropdown-lan1 .dropdown-menu .dropdown-item{
+//     padding: 0px 8px;
+// }
+.dropdown-lan1 i {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.header-logo-menu {
+    align-items: center;
+    padding: 7px 0;
+}
+
+.header-right-login {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right-login{
+    .dropdown-toggle::after{
+        content: none;
+    }
+
+    .dropdown-menu{
+        right: 0;
+        left: unset;
+    }
+    .logged-avater-img{
+        width: 25px;
+        height: 25px;
+    }
+
+    img.logged-in-avater{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+
+
+.btn-logout{
+    background: #d81324;
+    color: #fff;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    &:hover{
+        color: #fff;
+    }
+}

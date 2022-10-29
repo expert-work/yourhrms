@@ -1,0 +1,106 @@
+@import "mediaQuaries";
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .flex-item-left {
+
+    padding: 10px;
+    flex: 70%;
+  }
+
+  .flex-item-right {
+
+    padding: 10px;
+    flex: 30%;
+  }
+  .input-group.input-group-sm {
+    width: 100%;
+  }
+
+ul.navbar-nav.ml-auto.flex-item-right.navbar-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-flex li{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+i.far
+{
+    font-size: 20px;
+}
+.admin-img img {
+    background: #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+}
+.flex-item-right-content
+{
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+  padding: 0 20px;
+  align-items: center;
+  white-space: nowrap;
+}
+.flex-item-right-content .designation{
+    font-size: 12px;
+    color: #ff5a3c;
+    font-weight: bold;
+}
+.flex-item-right-content .profile-name{
+
+    color: #526484;
+font-size: 14px;
+line-height: 16px;
+font-weight: 700;
+
+}
+
+.flex-button-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+  }
+
+  .flex-button-left{
+      flex: 50%;
+      width: 100%;
+  }
+.flex-button-right{
+    flex: 50%;
+    width: 100%;
+}
+
+@include tablet{
+    .flex-item-right-content{
+        display: none;
+    }
+    .flex-button-container{
+        flex-direction: column;
+    }
+}
+
+.cus-card-title
+{
+    flex: 1;
+}
+.form-group.form-group-with-search.d-flex.align-items-center input[type=text]
+{
+    padding-left: 35px !important;
+}
+.main-header .navbar-nav .nav-item{
+    margin-right: 10px;
+
+}
+
+

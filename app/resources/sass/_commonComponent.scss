@@ -1,0 +1,694 @@
+// custom breadcrumb
+.custom-breadcrumb{
+    background-color: #F6F6F6;
+    .header-content{
+        text-transform: capitalize;
+
+        h1{
+            color: #222222;
+            font-family: var(--font-family-sans-serif);
+            .highlight-text-red{
+                color: #D81324;
+            }
+        }
+
+        .btn{
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .bc-btn-1{
+            background: transparent;
+            color: #222222;
+            border: 2px solid #0B2154;
+        }
+
+        .bc-btn-1:hover{
+            color: #fff !important;
+            background: #D81324;
+            border: 2px solid #D81324;
+        }
+
+        .bc-btn-2{
+            background: #D81324;
+            color: #fff;
+            border: 2px solid #D81324;
+        }
+
+        .bc-btn-2:hover{
+            background: transparent;
+            color: #fff;
+            border: 2px solid #0B2154;
+            background: #0B2154;
+        }
+    }
+
+}
+
+
+
+.custom-breadcrumb .breadcrumb-input{
+    width: 220px !important;
+    margin-bottom: 0;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    height: 50px;
+}
+
+
+    @include lg-device {
+        .custom-breadcrumb{
+            text-transform: capitalize;
+            background-color: #0B2154;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .custom-breadcrumb::before{
+            position: absolute;
+            content: "";
+            background-image: url('/adgari/public/frontend/img/body/driver-car-smile-1.jpg');
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            top: 0;
+            left: 0;
+            opacity: 0.1;
+        }
+
+        .custom-breadcrumb .header-content{
+            order: 2;
+            text-align: center;
+            padding: 30px 0;
+
+            h2{
+                color: #fff;
+            }
+
+            p{
+                color: #fff;
+            }
+
+            .btn-wrapper{
+                .bc-btn-1{
+                    background: #fff;
+                    color: #222222;
+                    border: 1px solid #222222;
+                }
+
+                .bc-btn-1:hover{
+                    color: #fff;
+                    background: #D81324;
+                    border: 1px solid #D81324;
+                }
+
+                .bc-btn-2{
+                    background: #D81324;
+                    color: #fff;
+                    border: 1px solid #D81324;
+                }
+
+                .bc-btn-2:hover{
+                    background: #fff;
+                    color: #222222;
+                    border: 1px solid #222222;
+                }
+
+            }
+        }
+
+        .custom-breadcrumb .slide-item-img.with-parallelogram, .custom-breadcrumb .slide-item-img{
+            display: none;
+        }
+
+
+        .custom-breadcrumb .breadcrumb-input{
+            margin-right: 10px;
+            border-color: #fff;
+            color: #fff;
+            height: 42px;
+        }
+
+        .custom-breadcrumb .breadcrumb-input::placeholder{
+            color: #fff;
+        }
+    }
+
+
+    @include sm-device {
+        .btn-wrapper{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+            .btn{
+                margin: 0;
+            }
+        }
+
+        .custom-breadcrumb .breadcrumb-input{
+            margin-right: 0px;
+        }
+
+        .breadcrumb-input.tutorial-bc-input{
+            margin-bottom: 0px !important;
+        }
+
+    }
+
+// hero slider buttons
+@include lg-device {
+    .custom-breadcrumb .breadcrumb-btns .bc-btn-1 {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+    .custom-breadcrumb .breadcrumb-btns .bc-btn-2:hover {
+        background: #AF0211;
+        border: 2px solid #AF0211;
+    }
+}
+
+// How much driver can earn
+.driver-can-earn-container{
+    text-transform: capitalize;
+    background-color: #0B2154;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    &:before {
+        position: absolute;
+        content: "";
+        background-image: url(http://localhost/adgari/public/images/pattern-pin-1.png);
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+    }
+
+    .section-title{
+        color: #fff;
+    }
+    .coverage-level-area{
+        display: flex;
+        @media screen and (max-width:991px) {
+                flex-direction: column;
+        }
+
+        align-items: center;
+        justify-content: center;
+        .sub-title{
+            text-align: center;
+            h6{
+                color: #fff;
+            }
+        }
+        .coverage-level-btns{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            button{
+                background-color: #fff;
+                padding: 8px 20px;
+                color: #222222;
+                font-weight: 600;
+                border-radius: 5px;
+                margin: 10px;
+                display: inline-block;
+                text-transform: capitalize;
+                font-size: 18px;
+            }:hover{
+                color: #fff;
+                background-color: #D81324;
+            }
+            .active{
+                color: #fff;
+                background-color: #D81324;
+            }
+        }
+
+        .coverage-image{
+            // max-width: 580px;
+            margin: 30px auto;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                // animation-name: fromLeft;
+                // animation-duration: 2s;
+
+                // @keyframes fromLeft {
+                //     0%{
+                //         margin-left: -180%;
+                //     }
+                //     100%{
+                //         margin-left: 0;
+                //     }
+                // }
+            }
+        }
+
+
+        // 360 rotation car
+
+        #sideCarRotation, #frontCarRotation, #backCarRotation, .for-side-car, .for-front-car, .for-back-car{
+            display: none;
+        }
+
+        .coverage-swiper{
+            background-color: rgba(0, 0, 0, .4);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            border-radius: 20px;
+            max-width: 250px;
+            font-size: 14px;
+            margin: 30px auto;
+            @media screen and (min-width:992px) {
+                position: absolute;
+                top: 40%;
+                left: 35%;
+            }
+
+            img{
+                opacity: 0.7;
+                width: 40px;
+                animation-name: swiperInstruction;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                @media screen and (max-width:1200px) and (min-width:992px) {
+                    width: 20px;
+
+                }
+
+                @keyframes swiperInstruction {
+                    0% {
+                        margin-left: -50%;
+                      }
+                      25%{
+                          margin-left: 50%;
+                      }
+                      50%{
+                        margin-left: -50%;
+                      }
+                      75%{
+                          margin-left: 50%;
+                      }
+
+                      100% {
+                        margin-left: -50%;
+                      }
+
+                }
+            }
+            p {
+                margin: 0;
+                color: #fff;
+                font-size: 18px;
+                @media screen and (max-width:1200px) and (min-width:992px) {
+                    font-size: 16px;
+
+                }
+            }
+        }
+
+        @include sm-device{
+            .coverage-swiper{
+                display: none;
+            }
+
+        }
+
+        .how-much-gonna-earn{
+            background-color: #fff;
+            padding: 20px 50px;
+            text-align: center;
+            margin: 30px 0;
+            border-radius: 20px;
+            border: 1px solid #D81324;
+            max-width: 430px;
+            margin: 30px auto;
+            .per-time-span{
+                h3 {
+                    margin: 0;
+                    span{
+                        font-size: 14px;
+                        // font-weight: 500;
+                    }
+                }
+            }
+
+            .coverage-amount{
+                h2{
+                    color: #D81324;
+                    margin-bottom: 5px;
+                    span{
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .coverage-details{
+                h5 {
+                    margin-bottom: 5px;
+                }
+                h6, p{
+                    color: #000;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+    }
+}
+
+@include xs-device{
+    .breadcrumb-btns .bc-btn-1{
+
+        margin-right: 10px;
+    }
+    .custom-breadcrumb .header-content .btn{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+}
+
+
+// trusted by
+
+.trusted-by-brand{
+    .section-title-area{
+        h2{
+            color: #222222;
+            text-transform: capitalize;
+            .text-red{
+                color: #D81324;
+            }
+        }
+    }
+
+    .driver-services-single-card {
+        // max-width: 310px;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 20px 0;
+        opacity: 0.7;
+
+        img{
+            max-height: 90px;
+        }
+    }:hover{
+        opacity: 1;
+    }
+}
+
+
+
+// Services for Drivers
+.driver-services-container {
+    text-transform: capitalize;
+    .driver-services-cards{
+        .driver-services-single-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            border: 1px solid #ddd;
+            .driver-services-single-card-body {
+                .ltn__feature-info{
+                    .ltn__feature-icon{
+                        width: 200px;
+                        height: 80px;
+                        margin: auto;
+                        margin-bottom: 15px;
+                        img{
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// client work process
+
+.client-work-process-container{
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #0B2154;
+    position: relative;
+    min-height: 620px;
+    &:before {
+        position: absolute;
+        content: "";
+        background-image: url(http://localhost/adgari/public/images/pattern-pin-1.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.3;
+        background-position: center center;
+        background-size: 100%;
+    }
+    .section-title-area{
+        h1{
+            color: #fff;
+        }
+    }
+    .step-indicator{
+        margin-top: 0;
+        .step{
+            border: 1px solid #fff;
+            border-radius: 50%;
+            padding: 3px;
+
+            .step-icon{
+                background-color: #fff;
+                color: #0B2154;
+                font-weight: 600;
+            }
+            .step-content{
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                margin-top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 50%;
+                font-weight: 700;
+                width: 180px;
+                p{
+                    color: #fff;
+                    font-size: 18px;
+                    position: relative;
+                    min-height: 110px;
+                }
+
+            }
+        }
+
+        .step.active{
+            .step-icon{
+                background-color: #D81324;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+// offer for brands
+
+.offers-for-brands-container{
+    // min-height: 450px;
+    .offer-brand-image-parent {
+        position: relative;
+        min-height: 450px;
+        display: flex;
+        align-items: center;
+    }
+    .offer-brand-image.outside-container{
+        position: absolute;
+        left: -100%;
+    }
+
+    .offer-brands-content{
+        .single-contnet{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            .single-content-text{
+                h5{
+                    color: #0B2154;
+                    margin-bottom: 5px;
+                }
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
+            .single-content-image{
+                margin-right: 20px;
+                margin-top: 7px;
+
+                img{
+                    min-width: 40px;
+                    max-width: 40px;
+                }
+            }
+        }
+    }
+}
+
+.offers-for-brands-container .offer-brand-image.inside-container {
+    display: none;
+}
+
+@include md-device{
+    .offers-for-brands-container .offer-brand-image.outside-container, .offer-brand-image-parent.mobile-display-none {
+        display: none;
+    }
+
+    .offers-for-brands-container .offer-brand-image.inside-container {
+        display: block;
+    }
+
+    .for-client-img{
+        order: 1;
+    }
+    .for-client-content{
+        order: 2;
+        margin-top: 30px;
+    }
+
+
+}
+
+// Contact form
+.contact-form-box {
+    padding: 80px 50px 70px;
+    border-radius: 5px;
+    &:before {
+        position: absolute;
+        content: "";
+        // background-image: url(http://localhost/adgari/public/images/pattern-map-1.1.png);
+        width: 100%;
+        height: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+        opacity: 0.15;
+    }
+}
+
+
+// register page
+
+.validation-error-message{
+    color:red;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+input.invalid-input {
+    border-color: red;
+}
+
+
+#registerAsBrandAmbassador, #loginAsbrandAmbassador{
+    display: none;
+}
+
+.eye-icon.show-hide-password{
+    cursor: pointer;
+}
+// .eye-icon.eye-icon-slash{
+//     display: none;
+// }
+
+// .eye-icon.eye-icon-normal{
+
+// }
+
+.eye-icon.show-password {
+    display: inline-block;
+}
+
+.eye-icon.hide-password{
+    display: none;
+}
+
+.reg-as-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#scrollUp{
+    bottom: 20px;
+    right: 23px;
+}
+@media screen and (max-width:991px) {
+    #scrollUp{
+       
+        right: 23px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .reg-as-btns{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+
+//animate car
+.first-coverage-car{
+    margin-left: -180%;
+}
+
+.first-coverage-car.animate-car{
+    margin-left: 0;
+    transition-duration: 2s;
+}
+
+.coverage-swiper{
+    opacity: 0;
+}
+
+.coverage-swiper.coverage-swipper-display{
+    transition-delay: 2s;
+    transition-duration: 2s;
+    opacity: 1;
+}
+
+@media screen and (max-width: 991px){
+    .rotation img:not(:first-child){
+        display: none;
+    }
+}
+

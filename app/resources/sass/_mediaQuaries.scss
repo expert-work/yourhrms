@@ -1,0 +1,70 @@
+// not customizable for adgari
+@mixin tablet {
+    @media screen and (max-width:767px) {
+        @content;
+
+    }
+
+}
+
+@mixin mobile {
+    @media screen and (max-width:575px) {
+        @content;
+    }
+
+}
+
+@mixin medium
+{
+    @media screen and (max-width:991px){
+        @content;
+
+    }
+}
+@mixin sidebarIcon
+{
+    @media screen and (max-width:991px){
+        @content;
+
+    }
+}
+// not customizable for adgari
+
+// adgari usable query
+@mixin xxl-device{
+    @media screen and (max-width:1400px) {
+        @content;
+
+    }
+}
+@mixin xl-device{
+    @media screen and (max-width:1200px) {
+        @content;
+
+    }
+}
+@mixin lg-device{
+    @media screen and (max-width:991px) {
+        @content;
+
+    }
+}
+@mixin md-device{
+    @media screen and (max-width:767px) {
+        @content;
+
+    }
+}
+
+@mixin sm-device{
+    @media screen and (max-width:575px) {
+        @content;
+
+    }
+}
+
+@mixin xs-device {
+    @media screen and (max-width: 360px){
+        @content;
+    }
+}

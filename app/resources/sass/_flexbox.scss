@@ -1,0 +1,13 @@
+.header-flex-container{
+ display: flex;
+ width: 100%;
+ flex-direction: row;
+}
+.header-flex-left{
+    flex: 1;
+}
+.header-flex-middle{
+    display: flex;
+    justify-content: flex-end;
+}
+

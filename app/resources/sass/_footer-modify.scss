@@ -1,0 +1,30 @@
+
+.ltn__call-to-action-area {
+    margin-bottom: -50px;
+    z-index: 1;
+    position: relative;
+    @include lg-device {
+        margin-top: 80px;
+    }
+}
+
+
+// footer modify
+.footer-widget {
+    margin-bottom: 40px;
+}
+
+.ltn__copyright-menu {
+    ul {
+        li {
+            a {
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.ltn__copyright-area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

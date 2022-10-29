@@ -1,0 +1,65 @@
+
+.theme-btn-1
+{
+    background-color:#ff5a3c !important;
+    color: #fff !important ;
+    margin-bottom: 20px;
+}
+
+
+.theme-btn-1:hover {
+    background-color:#071c1f !important;
+    color:#fff;
+}
+.active-btn {
+    margin-top: 10px;
+    padding: 12px 30px;
+    background: #0dca13 !important;
+}
+
+.action-btn{
+    background: #ff5a3c !important;
+    color: #fff !important;
+    border: none !important;
+}
+.page-item.active .page-link
+{
+    background: #ff5a3c !important;
+    color: #fff !important;
+}
+
+.info-btn.active{
+    background: #7F58FE !important;
+    color: #fff !important;
+}
+
+.btn-circle{
+    border-radius: 50% !important;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+}
+ .icon-rel {
+        position: absolute;
+        left: 14px;
+        top: 12px;
+    }
+
+.transparent-blue{
+    background-color: #4466f25c !important;
+    border: none !important;
+}
+// i.fas.fa-pen.icon-rel{
+//     color: #4466f2 !important;
+// }
+.transparent-red{
+    background-color: #dc35454d !important;
+    border: none !important;
+}
+// i.fas.fa-pen.icon-rel{
+//     color: #4466f2 !important;
+// }
+i.fas.fa-trash.icon-rel{
+    color: #dc3545 !important;
+}
+

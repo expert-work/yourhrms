@@ -1,0 +1,18 @@
+
+
+.sticky-container {
+
+	position: fixed;
+	top: 50%;
+	left: 0px;
+	width: 0px;
+	height: auto;
+	z-index: 9999;
+	text-align: center;
+
+}
+.sticky-play-store-logo{
+    width: 85px;
+    transform: rotate(-90deg);
+    box-shadow: 2px 2px 3px 0px;
+}

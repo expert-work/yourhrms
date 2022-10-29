@@ -1,0 +1,59 @@
+.navbar-nav-toggler {
+    .nav-link i {
+        font-size: 1.5rem;
+        line-height: 1;
+        color: #8f9fbc;
+    }
+    .nav-link .bi-text-right {
+        display: none;
+    }
+}
+.sidebar-collapse .navbar-nav-toggler .nav-link .bi-text-right {
+    display: block;
+}
+
+.sidebar-collapse .navbar-nav-toggler .nav-link .bi-text-left {
+    display: none;
+}
+
+.main-sidebar.elevation-4 {
+    &.dark-sidebar {
+        background: #2b303b;
+    }
+}
+.sidebar-mini.sidebar-collapse .main-sidebar:hover {
+    background: #2b303b;
+}
+
+//   .sidebar-collapse .nav-link-text {
+//     display: none;
+//     transition: opacity 1s ease-out;
+//     opacity: 0;
+// }
+// .nav-link-text{
+//     opacity: 1;
+//     display: block;
+// }
+
+.sidebar-mini.sidebar-collapse .main-sidebar.sidebar-focused, .sidebar-mini.sidebar-collapse .main-sidebar:hover {
+    width: auto;
+}
+
+.sidebar-collapse .has-submenu .nav-link {
+    // display: inline-flex !important;
+}
+.sidebar-collapse .has-submenu.nav-item {
+    text-align: center;
+}
+.sidebar-collapse .has-submenu:hover {
+
+}
+.sidebar-collapse .main-sidebar, .sidebar-collapse .sidebar, .sidebar-collapse .os-padding, .sidebar-collapse .os-viewport, .sidebar-collapse .os-content, .sidebar-collapse .sidebar, .sidebar-collapse .sidebar .nav, .sidebar-collapse .sidebar .nav-item {
+    overflow: visible !important;
+}
+.sidebar-collapse nav .nav-item a {
+    display: inline-block;
+}
+.sidebar-collapse .main-sidebar:hover .sidebar-top-side a {
+    // max-width: auto !important;
+}

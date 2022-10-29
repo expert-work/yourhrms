@@ -1,0 +1,54 @@
+// cards
+
+// fix cards
+// no shadow cards
+.ltn__feature-item-6.no-shadow.active, .ltn__feature-item-6.no-shadow:hover {
+    box-shadow: none;
+}
+.ltn__feature-item-6 {
+    border: none;
+    margin-bottom: 20px;
+}
+.cus-line-clamp, .extra-space {
+    // height: auto;
+}
+
+// main focus card
+.feature-custom-item-6 {
+    display: flex;
+    align-items: center;
+    .featured-img {
+        max-height: 120px;
+        margin: 25px 0;
+    }
+    p {
+        padding: 0 15%;
+        @include lg-device {
+            padding: 0;
+        }
+    }
+    &:before {
+        background-color: #d81324;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.feature-custom-item-7 {
+    padding: 30px;
+    p {
+        margin: 0;
+    }
+}
+
+.driver-card-height
+{
+    height: 320px;
+}
+
+
+
+
+
+
+

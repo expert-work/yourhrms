@@ -1,0 +1,31 @@
+.btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.update-btn {
+    margin-top: 10px;
+    padding: 12px 30px;
+}
+.active-btn {
+    margin-top: 10px;
+    padding: 12px 30px;
+    background: rgb(13, 202, 19);
+}
+.btn-padding-next{
+    padding: 10px 46px !important;
+}
+.theme-btn-1,.ltn__secondary-bg{
+    background: #D81324;
+}
+
+// footer newsletter
+.footer-newsletter {
+    .btn {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}

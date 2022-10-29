@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966950152058",
+    "project_id": "yourhrms-6fcf1",
+    "storage_bucket": "yourhrms-6fcf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966950152058:android:83c86e890aae545deed8c3",
+        "android_client_info": {
+          "package_name": "inhouse.yourhrms.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966950152058-iqrgk6dt4n5vfp323s2qh9ma182fpbmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOnQNB5rPoJjeVEoLtuAcwsuGUP14t_JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966950152058-iqrgk6dt4n5vfp323s2qh9ma182fpbmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

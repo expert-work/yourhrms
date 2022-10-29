@@ -1,0 +1,12 @@
+{
+    "Deposit": "Deposit",
+    "Expense": "Expense",
+    "ID": "ID",
+    "Name": "Name",
+    "Balance": "Balance",
+    "Account Name": "Account Name",
+    "Account Number": "Account Number",
+    "Branch": "Branch",
+    "Status": "Status",
+    "Action": "Action"
+}

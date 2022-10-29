@@ -1,0 +1,356 @@
+@include xxl-device {
+    .container {
+        max-width: 1100px !important;
+    }
+}
+@include xl-device {
+    .container {
+        max-width: 900px !important;
+    }
+}
+
+
+
+@include lg-device{
+
+}
+
+// .ltn__main-menu>ul>li{
+//     margin-right: 0;
+// }
+@include lg-device {
+    // footer
+   
+    .app-logo img{
+        width: 100px;
+    }
+    .app-logo>img:last-child{
+        margin-top: 1rem;
+    }
+    // card
+    .driver-card-height
+{
+    height: 270px;
+}
+.signup-card-height{
+    height: 180px;
+}
+.card-bg{
+    height: 290px;
+}
+.how-much-earn-form {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+
+    i.menu-icon.menu-cus-icon {
+        margin-right: 0px;
+    }
+
+    .ltn__utilize-menu-head .ltn__utilize-close{
+        font-size: 30px !important;
+        padding: 0;
+    }
+
+    .ltn__utilize-menu .custom-sf.active{
+        color: #D81324;
+        font-weight: 800;
+    }
+
+    // header menu / sidebar
+    .navbar-burger-menu{
+        display: block;
+    }
+
+    .navbar-normal-menu{
+        display: none;
+    }
+
+    // .ltn__main-menu ul li{
+    //     margin-right: 0px !important;
+    // }
+    .header-right-login{
+        display: none;
+    }
+
+
+    // footer
+    .copyright-padding{
+        margin-bottom: 65px;
+    }
+    .container {
+        max-width: 720px !important;
+    }
+    .client-work-process-container {
+        min-height: 415px;
+    }
+    .ltn__right-sidebar {
+        margin-top: 70px;
+    }
+    .ltn__faq-inner.ltn__faq-inner-2,
+    .google-map-gap {
+        margin-bottom: 0px;
+    }
+
+    .bg-deep-blue.blue-container-width {
+        max-width: 100%;
+    }
+    .lg-device-center {
+        text-align: center;
+    }
+    .extra-height {
+        height: 15px;
+    }
+
+    // footer sticky
+    .footer-sticky {
+        display: block;
+    }
+
+    .footer-sticky .custom-sf.active{
+        color: #D81324;
+        font-weight: 800;
+    }
+
+
+    // header
+    .top-header-bg {
+        display: none;
+    }
+
+
+    .ltn__feature-item-6 {
+        padding: 20px !important;
+    }
+
+
+
+    .responsive-flex {
+        flex-direction: column;
+    }
+    .fs-18,
+    .fs-16,
+    .step p,
+    .about-us-info-wrap p,
+    .btn,
+    button,
+    .ltn__feature-item-6 .ltn__feature-info p,
+    .client-work-process-container .step-indicator .step .step-content p {
+        font-size: 14px !important;
+    }
+    .responsive-li li {
+        margin-bottom: 0px !important;
+        margin-top: 0px;
+    }
+    .header-width {
+        width: auto;
+        text-align: center;
+    }
+    .bg-deep-blue.blue-container-width {
+        width: auto;
+    }
+    .ltn__feature-info h3 {
+        font-size: 18px !important;
+    }
+    .cus-line-clamp {
+        height: 60px;
+    }
+
+    .car-position {
+        display: none;
+    }
+    .coll-to-info {
+        display: flex;
+
+    }
+    .coll-to-info h2 {
+        margin-right: 30px;
+        margin-bottom: 0px;
+
+        img{
+            max-height: 20px;
+        }
+    }
+    .ltn__feature-item {
+        padding: 15px;
+    }
+    .card-border {
+        margin-bottom: 20px;
+    }
+    .client-work-process-container .step-indicator .step .step-content p {
+        width: 120px;
+        min-height: 65px;
+    }
+    .client-work-process-container .step-indicator .step .step-content {
+        width: inherit;
+    }
+    .about-us-flex-col {
+        flex-direction: column;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .ltn__main-menu > ul > li {
+        margin-right: 5px;
+    }
+    .ltn__main-menu > ul > li > a {
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .ltn__main-menu > ul > li {
+        margin-right: 10px;
+    }
+    .ltn__main-menu > ul > li > a {
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+}
+
+@include md-device {
+    // container
+    // .container {
+    //     max-width: 550px !important;
+    // }
+     // slider advertise
+     .slick-carousel-ad{
+        display: block;
+    }
+    .driver-services-single-card.mx-auto{
+        border: none;
+    }
+    .trusted-by-brand-cards-none{
+        display: none;
+    }
+    .why-choose-us-main::before {
+        background-image: none !important;
+    }
+    .choose-us-content {
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .aboutus-grid-img {
+        display: block;
+    }
+    .aboutus-img {
+        background-image: none !important;
+        height: auto !important;
+    }
+
+    .offers-for-brands-container .offer-brand-image.outside-container {
+        position: inherit;
+        left: 0%;
+    }
+    input[type="text"]::placeholder {
+        color: $lightBlack;
+        font-size: 14px;
+    }
+
+    input[type="email"]::placeholder {
+        color: $lightBlack;
+        font-size: 14px;
+    }
+    textarea::placeholder {
+        color: $lightBlack;
+        font-size: 14px;
+    }
+
+    input[type="password"]::placeholder {
+        color: $lightBlack;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    .track-img {
+        display: none;
+    }
+    .lg-device-contact-form{
+        padding-bottom: 80px;
+    }
+}
+@include sm-device {
+
+
+    // footer
+    .copyright-padding{
+        margin-bottom: 15px;
+    }
+    .footer-site-logo{
+        width: 50%;
+    }
+    .site-logo img{
+        width: unset;
+    }
+    .ltn__copyright-menu {
+        margin-top: 10px !important;
+    }
+    // headings
+    h1 {
+        font-size: 22px;
+    }
+
+    // paragraph
+    p.lg {
+        font-size: 18px;
+    }
+
+    .about-us-img-wrap.about-img-left {
+        width: 250px;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+
+    .ltn__copyright-menu {
+        margin-top: 25px;
+        padding-bottom: 50px;
+    }
+    .about-us-img-wrap {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .flex-col-rev {
+        flex-direction: column-reverse;
+    }
+    .md-device-btn-center {
+        text-align: center;
+    }
+    .hero-slider {
+        background-image: none;
+        background-color: #f2f2f2;
+    }
+    .banner-content {
+        padding-top: 0%;
+    }
+    .coll-to-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+
+        h2{
+            img{
+                max-width: 20px;
+            }
+        }
+    }
+    .client-work-process-container {
+        display: none;
+    }
+
+    .app-tutorial-md-device {
+        display: block;
+    }
+    .app-tutorial-lg-device {
+        display: none;
+    }
+    .contact-form-box {
+        padding: inherit;
+    }
+    .contact-form-box-cus{
+     padding: 40px 25px 50px;
+    }
+
+}
+

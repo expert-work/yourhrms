@@ -1,0 +1,264 @@
+// // .container-radio {
+// //     display: block;
+// //     position: relative;
+// //     padding-left: 35px;
+// //     margin-bottom: 12px;
+// //     cursor: pointer;
+
+// //     -webkit-user-select: none;
+// //     -moz-user-select: none;
+// //     -ms-user-select: none;
+// //     user-select: none;
+// //   }
+// //   .container-radio input {
+// //     position: absolute;
+// //     opacity: 0;
+// //     cursor: pointer;
+// //   }
+// //   .checkmark {
+// //     position: absolute;
+// //     top: 0;
+// //     left: 0;
+// //     height: 15px;
+// //     width: 35px;
+// //     background-color: #eee;
+// //     border-radius: 40px;
+// //   }
+// //   .container:hover input ~ .checkmark {
+// //     background-color: #ccc;
+// //   }
+
+
+// //   .container-radio input:checked ~ .checkmark {
+// //     background-color: #2196F3;
+// //   }
+// //   .checkmark:after {
+// //     content: "";
+// //     position: absolute;
+// //     display: none;
+// //   }
+// //   .container input:checked ~ .checkmark:after {
+// //     display: block;
+// //   }
+
+
+// //   .container-radio .checkmark:after {
+// //     top: 3px;
+// //     left: 4px;
+// //     width: 10px;
+// //     height: 9px;
+// //     border-radius: 50%;
+// //     background: white;
+// //     transform: translateX(17px) !important;
+// //     transition: background-position 1s ease-in-out;
+// //   }
+// .switch1 {
+//     position: absolute;
+//     top: 10px;
+//     right: 30px;
+
+//     width: 60px;
+//     height: 18px;
+// }
+
+// /* Hide default HTML checkbox */
+// .switch1 input {
+//     opacity: 0;
+//     width: 0;
+//     height: 0;
+// }
+// .slider1 {
+//     position: absolute;
+//     cursor: pointer;
+//     top: 0;
+
+//     bottom: 0;
+//     background-color: #ccc;
+//     -webkit-transition: 0.4s;
+//     transition: 0.4s;
+// }
+// .switch {
+//     position: absolute;
+//     top: 10px;
+//     right: 30px;
+
+//     width: 60px;
+//     height: 34px;
+// }
+
+// /* Hide default HTML checkbox */
+// .switch input {
+//     opacity: 0;
+//     width: 0;
+//     height: 0;
+// }
+
+// /* The slider */
+// .slider {
+//     position: absolute;
+//     cursor: pointer;
+//     top: 0;
+
+//     bottom: 0;
+//     background-color: #ccc;
+//     -webkit-transition: 0.4s;
+//     transition: 0.4s;
+// }
+
+// .slider:before {
+//     position: absolute;
+//     content: "";
+//     height: 26px;
+//     width: 26px;
+//     left: 4px;
+//     bottom: 4px;
+//     background-color: white;
+//     -webkit-transition: 0.4s;
+//     transition: 0.4s;
+// }
+
+// input:checked + .slider {
+//     background-color: #63bb1b;
+// }
+
+// input:focus + .slider {
+//     box-shadow: 0 0 1px #63bb1b;
+// }
+
+// input:checked + .slider:before {
+//     -webkit-transform: translateX(26px);
+//     -ms-transform: translateX(26px);
+//     transform: translateX(26px);
+// }
+
+// /* Rounded sliders */
+// .slider.round {
+//     border-radius: 34px;
+// }
+// .slider {
+//     width: 60px;
+// }
+
+// .slider.round:before {
+//     border-radius: 50%;
+// }
+// .flex-buttton-container {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+//     text-align: center;
+// }
+
+// .flex-button-left {
+//     flex: 50%;
+//     width: 100%;
+// }
+// .flex-button-right {
+//     flex: 50%;
+//     width: 100%;
+// }
+
+// @include tablet {
+//     .flex-buttton-container {
+//         flex-direction: column;
+//     }
+// }
+
+// .slider1:before {
+//     position: absolute;
+//     content: "";
+//     height: 12px;
+//     width: 16px;
+//     left: 4px;
+//     bottom: 4px;
+//     background-color: white;
+//     transition: 0.4s;
+//     top: 3px;
+// }
+
+// input:checked + .slider1 {
+//     background-color: var(--ltn__secondary-color);
+// }
+
+
+
+// input:checked + .slider1:before {
+//     -webkit-transform: translateX(17px);
+//     -ms-transform: translateX(17px);
+//     transform: translateX(17px);
+// }
+
+// /* Rounded sliders */
+// .slider1.round {
+//     border-radius: 34px;
+// }
+// .slider1 {
+//     width: 40px;
+// }
+
+// .slider1.round:before {
+//     border-radius: 50%;
+// }
+.switch1 {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    top: 7px;
+    margin-right: 10px;
+  }
+
+  /* Hide default HTML checkbox */
+  .switch1 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider1:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 2px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider1 {
+    background-color: #ff5a3c;
+  }
+
+  input:focus + .slider1{
+    box-shadow: 0 0 1px #ff5a3c;
+  }
+
+  input:checked + .slider1:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+  }
+
+  /* Rounded sliders */
+  .slider1.round {
+    border-radius: 34px;
+  }
+
+  .slider1.round:before {
+    border-radius: 50%;
+  }

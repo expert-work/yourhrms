@@ -1,0 +1,54 @@
+// hero slider
+.earn-today {
+    
+}
+
+// breadcrumb
+.with-parallelogram, .with-parallelogram-1 {
+
+}
+.with-parallelogram {
+    width: 85%;
+    height: 350px;
+    transform: skew(-15deg);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+    
+    .with-parallelogram-1 {
+        transform: skew(15deg);
+        background-image: url("/adgari/public/frontend/img/slider/masked-rideshare-driver.jpg");
+
+        width: 120%;
+        height: 100%;
+        background-size: cover;
+        margin-left: -10%;
+        &.contact-breadcrumb {
+            background-image: url("/adgari/public/frontend/img/slider/driver-contact.jpg");
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// breadcrumb 
